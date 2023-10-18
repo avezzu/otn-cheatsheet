@@ -15,7 +15,7 @@ $Y = F(K, L) = F(K(t), L(t))$ mit
 * $Y$ = Output ($y = Y/L$ Output pro Kopf)
 * $K$ = Kapital ($k = K/L$ Kapital pro Kopf)
   
-| ![F(K, L)](funktion_F.png)|
+| ![F(K, L)](assets/funktion_F.png)|
 |---|
 |*Beispiel: $Y= K^\alpha L^{1-\alpha}$*|
 
@@ -29,7 +29,7 @@ $Y = F(K, L) = F(K(t), L(t))$ mit
 | fallendes Grenzprodukt des Kapitals: $f_{kk} = \frac{d^2f(k)}{dk^2} < 0 \Rightarrow$ fallendes GP: je höher k, desto geringer zusätzliches y, welches mit zusätzlicher Einheit von kproduziert werden kann|
 |Inada-Bedingungen: $k \rightarrow 0 \Rightarrow f_k = \infty$, $k \rightarrow \infty \Rightarrow f_k = 0$ 
 
-![indada_bedinung](inada_bed.png)
+![indada_bedinung](assets/inada_bed.png)
 
 
 **Cobb-Douglas Produktionsfunktion** </br>
@@ -38,7 +38,7 @@ $Y= K^\alpha L^{1-\alpha}$ mit $y = \frac{Y}{L} = \frac{K^\alpha L^{1-\alpha}}{L
 <ins>Ersparnis pro Kopf:</ins> $sy = sf(k) = y - c$ </br>
 <ins>Konsum pro Kopf:</ins> $c = (1 - s)y=(1-s)f(k) \Longrightarrow g_c = g_y$
 
-![sparen_konsum](sparen_konsum.png)
+![sparen_konsum](assets/sparen_konsum.png)
 
 <ins>Entwicklung des Kapitalstocks:</ins> Investition = Sparen $\iff i= sy = sf(k)$</br>
 <ins>Abschreibungen:</ins> $\delta k$
@@ -48,10 +48,10 @@ $Y= K^\alpha L^{1-\alpha}$ mit $y = \frac{Y}{L} = \frac{K^\alpha L^{1-\alpha}}{L
 |$\Delta k = i - \delta k$|
 |$\Delta k = sf(k) - \delta k$|
 
-![delatk](aenderung_k.png)
+![delatk](assets/aenderung_k.png)
 
 Wir beobachten je höher $k$, desto geringer ist allerdings der Zuwachs der Produktion $f(k)$ aus einer weiteren Erhöhung von $k \Longrightarrow$ fallendes Grenzprodukt des Kapitals
-|![fallendes_grenzprodukt](entwicklung_k.png)|
+|![fallendes_grenzprodukt](assets/entwicklung_k.png)|
 |-|
 |$\Delta k = sf(k) - \delta k \rightarrow 0$|
 
@@ -66,7 +66,7 @@ Wir beobachten je höher $k$, desto geringer ist allerdings der Zuwachs der Prod
   * $y^*$ = gleichgewichtiger Output pro Kopf 
   
 
-![langfristiges_gg](gg_k.png)
+![langfristiges_gg](assets/gg_k.png)
 
 **Allgemeine Definition eines langfristiges Gleichgewichts**: alle Variablen wachsen mit konstanter Rate d.h. $g_k = \frac{y_{t + 1} - y_t}{y_t} = \frac{\Delta k_t}{k_t} =$ konstant
 
@@ -82,7 +82,7 @@ $y^* = (k^*)^\alpha = \frac{s}{\delta}^{\frac{\alpha}{1 - \alpha}}$
 Neue Produktionsfunktion: $Y = F(K, A \cdot L) = F(K(t), L(t))$ bzw. $y = f(k,A)$ mit $A$ = Arbeitsproduktivität, $A \cdot L$ = effektiver Arbeitseinsatz </br>
 Erhöhung der Arbeitsproduktivität hat gleicher Effekt wie Erhöhung von L. Beispiel: $Y= K^\alpha (AL)^{1-\alpha}$ mit $y = A^{1 - \alpha}k^\alpha$
 
-|![anstieg_A](anstieg_A.png)|
+|![anstieg_A](assets/anstieg_A.png)|
 |---|
 |Anstieg der Arbeitsproduktivität im Zeitverlauf|
 
@@ -99,7 +99,7 @@ Erhöhung der Arbeitsproduktivität hat gleicher Effekt wie Erhöhung von L. Bei
 $c^*$ ist maximal, wenn der Abstand zwischen $y = f(k)$ und $\delta k$ am grössten ist, dies ist genau der Fall wenn, die Steigung beider Funktionen gleich ist: $f_k(k) = \delta \Longleftarrow$ **Goldene Regel**</br>
 $s_{max}:$ Sparquote, bei der im Gleichgewicht $c = c_{max}$
 
-![optimaler_konsum](opt_c.png) $\\$
+![optimaler_konsum](assets/opt_c.png) $\\$
 
 
 ## Ramsey-Modell
@@ -107,7 +107,7 @@ $s_{max}:$ Sparquote, bei der im Gleichgewicht $c = c_{max}$
 <ins>Nutzenfunktion:</ins> $U(c_t)$ = Nutzen in Periode $t$ aus Konsum in Periode $t$ mit $t \in \{1,2\} \\$
 positiver, fallender Grenznutzen d.h. $U_c > 0$ und $U_{cc} < 0$ 
 
-|![U(c_t)](grenznutzen.png)|
+|![U(c_t)](assets/grenznutzen.png)|
 |-|
 |mehr Konsum bedeutet mehr Nutzen (Prinzip der Nicht-Sättigung)|
 |allerdings: zusätzlicher Nutzen geringer, je höher Konsumniveau d.h. fallender Grenznutzen|
@@ -115,11 +115,11 @@ positiver, fallender Grenznutzen d.h. $U_c > 0$ und $U_{cc} < 0$
 Haushalte diskontieren Nutzen aus Periode 2 mit Rate $\rho$ d.h. Periode 1 = $U(c_1)$ und Periode 2= $\frac{U(c_2)}{1 + \rho}$. Somit ist der Gesamtnutzen (Gegenwartswert des Nutzens) $\upsilon = U(c_1) + \frac{U(c_2)}{1 + \rho}\\$
 Beispiel einer Nutzenfunktion: $U(c) = (1 - \gamma)^{-1}c^{1 - \gamma}$
 
-![beispiel_Nutzenfunktion](bsp_u.png)
+![beispiel_Nutzenfunktion](assets/bsp_u.png)
 
 <ins>Indifferenzkurve:</ins>
 
-|![Indifferenzkurven](int_kurve.png)|
+|![Indifferenzkurven](assets/int_kurve.png)|
 |-|
 |Steigung der Indifferenzkurven entspricht dem Verhältnis der Grenznutzen aus $c_1$ und $c_2$: $\frac{\Delta c_2}{\Delta c_1} = - \frac{\upsilon_{c_1}}{\upsilon_{c_2}}$|
 
@@ -132,14 +132,14 @@ Beispiel einer Nutzenfunktion: $U(c) = (1 - \gamma)^{-1}c^{1 - \gamma}$
 |Budgetrestriktion in einzelner Periode| $c_1 = y_1 - s_1$ | $c_2 = y_2 + (1 + r) s_1$|
 Intertemporale Budgetrestriktion|$c_2 = (1 + r)(y_1 - c_1) + y_2$|$c_2 = (1 + r)(y_1 - c_1) + y_2$|
 
-|![konsummoeglichkeiten](konsummöglichkeiten.png)|
+|![konsummoeglichkeiten](assets/konsummöglichkeiten.png)|
 |--|
 |**Budgetgerade**: alle effizienten Konsumentscheide|
 |Punkte unterhalb der Budgetgerade haben positive Ersparnis am Ende von Periode 2 und sind somit nicht effizient|
 
 <ins>Nutzenmaximum:</ins> wenn Steigung der Budgetgerade = Steigung der Indifferenzkurve $1 + r = \frac{U_{c_1}}{U_{c_2}}$
 
-|![nutzenmax](nutzenmax.png)|
+|![nutzenmax](assets/nutzenmax.png)|
 |--|
 |$\upsilon^1$: Nutzen noch steigerbar|
 |$\upsilon^2$: Nutzenniveau nicht erreichbar bei gegebener Budgetrestriktion|
@@ -158,7 +158,7 @@ Wachstumsrate von Konsum $c$: $g_c = \frac{\Delta c}{c} = \frac{c_2 - c_1}{c_1} 
 
 Herleitung:
 
-![regel_key_ram](key_rem_regel.png)
+![regel_key_ram](assets/key_rem_regel.png)
 
 ### **Produktionsoptimum**
 <ins>Gewinn:</ins> $\Pi=p_{y} F(K, L)-r K-w L-\delta K$ mit $p_y =$ Preis von $y$ (zur Vereinfachung $p_y = 1$) und $w$ = Lohnsatz
@@ -181,7 +181,7 @@ Es gilt also $g_c = 0$ wenn das Grenzprodukt des Kapitals ( = Zinssatz) gerade d
 $\dot{k}=0 \quad \Leftrightarrow \quad c=f(k)-\delta k\quad$ folgt aus $g_{K}=\frac{f(k)-c}{k}-\delta$ </br>
 Es gilt also $g_K = 0$, wenn der Output, der nicht für Erhalt des Kapitalstocks verwendet wird, konsumiert wird.
 
-![ramsey_graph](gg_ram.png)
+![ramsey_graph](assets/gg_ram.png)
 
 ### **Vergleich mit Optimum im Solow Modell**
 * optimaler Kapitalstock Ramsey-Modell: $f_k(k^*_{R}) = \rho + \delta$
@@ -204,25 +204,25 @@ Im **Gleichgewicht** wenn die Verzinsung der Anlage des Gewinns aus dem Verkauf 
 $\frac{p_{R 2}^{n}}{p_{R 1}^{n}}=1+r \quad \Longleftrightarrow \quad \frac{p_{R 2}^{n}-p_{R 1}^{n}}{p_{R 1}^{n}}=g_{p_{R}^{n}}=r \Longrightarrow p_{R t}^{n}=p_{R 0}^{n} e^{r * t}$ wenn Periodenlönge gegen Null
 
 **Horelling Pfad**
-|![hotelling_pad](hotelling_pfad.png)|
+|![hotelling_pad](assets/hotelling_pfad.png)|
 |-|
 |*mit $c^R = 0 \Rightarrow$ und Ressourcenrente entspricht Preis der Ressource: $p_R^n = p_R$*|
 ||
 
 ### **Nachfrage nach Ressource R**
-![nachfrage_ressource](nachfrage_rsc.png)
+![nachfrage_ressource](assets/nachfrage_rsc.png)
 
 ### **Resourcenextraktionspfad**
-![ressourcenex](ressourcenex.png)
+![ressourcenex](assets/ressourcenex.png)
 
 ### Veränderung des Resourcenextraktionspfades
-![hoeher_zins](hoeher_zins.png)
-![neue_vorkommen](neue_vorkommen.png)
+![hoeher_zins](assets/hoeher_zins.png)
+![neue_vorkommen](assets/neue_vorkommen.png)
 
 ### **Hartwick-Regel**
 Einsatz der Ressource sinkt im Zeitablauf und muss somit durch Kapital substituiert werden.
 
-![hartwickregel](hartwickregel.png)
+![hartwickregel](assets/hartwickregel.png)
 
 ### **Produktionsfunktion mit nicht-erneuerbaren Ressourcen (d.h. mit $\sigma = 1$)**
 
@@ -257,18 +257,18 @@ Somit ist ein langfristig konstantes Konsumniveau
 abhängig von Entwicklung des Grenzproduktes des Kapitals $\alpha\left(\frac{R}{K}\right)^{1-\alpha}$  d.h. abhängig von Entwicklung von $R$ und $K$.
 
 ## Erneuerbaren Ressourcen
-![reg_funktion](reg_funktion.png)
+![reg_funktion](assets/reg_funktion.png)
 
 $V_{t}=\frac{\mathrm{CCH}}{\left(1+\frac{\mathrm{CCH}-V_{0}}{V_{0}} e^{-k t}\right)} \quad \Rightarrow \quad F\left(V_{t}\right)=\frac{d V_{t}}{d t}=k V_{t}\left(1-\frac{V_{t}}{\mathrm{CCH}}\right)$ mit $V_{0}=$ Anfangsbestand $k=$ intrinsische Wachstumsrate
 
 **Alternative Regenerationsfunktionen** mit Schwellenwert $V_{min}$ (Ausrottung unterhalb des
 Schwellenwertes):
 
-![schwellenwert](schwellenwert.png)
+![schwellenwert](assets/schwellenwert.png)
 
 <ins>Entwicklung des Bestandes:</ins> $\dot{V} = F(V) - Z$ wobei $Z$ = Ernte
 
-![ernte](ernte_Z.png)
+![ernte](assets/ernte_Z.png)
 
 Gleichgewicht dann erreicht, wenn keine Änderung des Bestandes im Zeitverlauf: $\dot{V} = 0 \iff F(V) = Z$. </br>
 Gleichgewicht entspricht der Bedingung für starke Nachhaltigkeit, offensichtlich gibt es immer zwei möglich Punkte wenn $Z \neq V_{MSY}$.
@@ -276,17 +276,17 @@ Gleichgewicht entspricht der Bedingung für starke Nachhaltigkeit, offensichtlic
 Stabil, wenn sich das System über die Zeit auf ein Gleichgewicht zu bewegt.</br>
 **Beispiel:**
 
-![stabil_gg_graph](stabil_gg_graph.png) </br>
-![stabiles_gg](stabiles_gg.png)
+![stabil_gg_graph](assets/stabil_gg_graph.png) </br>
+![stabiles_gg](assets/stabiles_gg.png)
 
 ### **Statisches Optimum**
 <ins>Gewinn:</ins> $\Pi = R(Z) - C(Z,V)$ mit $R(Z)$ = Ernteerlös und $C(Z,V)$ Ernekosten </br>
 <ins>Ernteerlös:</ins> $R(Z)= p \cdot Z\\$
 <ins>Erntekosten:</ins> $C_Z > 0, C_{ZZ} > 0 \Longrightarrow$ Kosten steigen bei Erhöhung der Ernte  
 
-![kosten_ernte](kosten_ernte.png)
+![kosten_ernte](assets/kosten_ernte.png)
 
-|![Kosten_bestand](Kosten_bestand.png)|
+|![Kosten_bestand](assets/Kosten_bestand.png)|
 |---|
 |$C_V < 0 \Longrightarrow$ Kosten niedriger bei höherem Bestand überproportional|
 
@@ -294,7 +294,7 @@ Bedingung für (statisches) ökonomisches Gleichgewicht (Bedingung für Gewinnma
 
 **Simultanes ökonomisches und biologisches Gleichgewicht:**
 
-![simultanes_oek_bio_gg](simultanes_oek_bio_gg.png)
+![simultanes_oek_bio_gg](assets/simultanes_oek_bio_gg.png)
 
 ### **Intertemporales Optimum**
 
@@ -304,7 +304,7 @@ Bedingung für (statisches) ökonomisches Gleichgewicht (Bedingung für Gewinnma
    1. Rückwirkung auf bestandsabhängige Kosten (bei höherem Bestand geringer): eingesparte Kosten $= -C_V = -\frac{dC(V)}{dV} > 0$
    2. Rückwirkung auf bestandsabhängige Kosten (bei höherem Bestand geringer): zusätzlicher Verkaufserlös $p^n F_V > 0$ oder geringer Verkaufserlös $p^n F_V < 0$
 
-![rueckwirkung_kosten](rueckwirkung_kosten.png)
+![rueckwirkung_kosten](assets/rueckwirkung_kosten.png)
 
 * **verzicht** auf Ernte, wenn die zusätzlichen Erträge aus der Verschiebung der Ernte höher
 sind als die zusätzlichen Kosten, d.h. wenn $r \cdot p_{R}^{n}<\dot{p}^{n}-C_{V}+p^{n} F_{V}$
@@ -323,7 +323,7 @@ Erntekosten = Ernteerlös: $C(Z,V) = p \cdot Z$ </br>
    
 $\Longrightarrow$  Simultanes Gleichgewicht: $C(V) = p \cdot F(V)$
 
-|![gg_open_access](gg_open_access.png)|
+|![gg_open_access](assets/gg_open_access.png)|
 |-|
 |$V^*$(stabiles) Marktgleichgewicht: keine zusätzlichen Markteintritte, keine austritte|
 
@@ -331,7 +331,7 @@ $\Longrightarrow$  Simultanes Gleichgewicht: $C(V) = p \cdot F(V)$
 <ins>Privateigentum Maximierung des Gewinns:</ins> $\Pi = p \cdot Z - C(V) = p \cdot F(V) - C(V)$ ergibt
 $p \cdot F_V = C_V < 0$
 
-![openacess_vs_privat](openacess_vs_privat.png)
+![openacess_vs_privat](assets/openacess_vs_privat.png)
 
 ## Hartwick Regel für erneuerbare Ressourcen
 <ins>Produktionsfunktion:</ins> $Y= K^\alpha Z^{1-\alpha}$ </br>
@@ -355,7 +355,7 @@ Produktion möglich, sofern der Kapitalstock ebenfalls über die Zeit konstant i
 * keine Investition/Ersparnis notwendig
 * wenn positive Ersparnis, dann auch steigende Produktion möglich
  
-![](nachhaltig_erneuerbare_res.png)
+![](assets/nachhaltig_erneuerbare_res.png)
 
 <ins>Berücksichtigung von Abschreibungen:</ins> $g_K = s\frac{Y}{K} - \delta$
 
@@ -371,12 +371,12 @@ Haushalte: maximieren intertemporalen Nutzen d.h.
 * Keynes Ramsey Regel: $g_{C}=\frac{1}{\gamma}(r-\rho)$
 * Konsum konstant, wenn $r = \rho$
 
-![disk_konst](disk_konst.png)
+![disk_konst](assets/disk_konst.png)
 
 ## **Umweltverschmutzung und Environmental Kuznets Curve**
 ### **Marktgleichgewicht**
 
-|![markt_gg](markt_gg.png)|
+|![markt_gg](assets/markt_gg.png)|
 |--|
 |**Angebot**: reflektiert privateKosten, die Produzenten bei der Produktion einer weiteren (marginalen) Einheit des Guts entstehen|
 |**Nachfrage**: reflektiert Nutzen, der Konsumenten aus einer weiteren (marginalen) Einheit des Gutes (=Zahlungsbereitschaft)|
@@ -385,27 +385,27 @@ Haushalte: maximieren intertemporalen Nutzen d.h.
 ### **Sozial optimale Produktion des Gutes**
 Berücksichtigt die externe Effekte.
 
-|![markt_gg_externe_effekt](markt_gg_externe_effekt.png)|
+|![markt_gg_externe_effekt](assets/markt_gg_externe_effekt.png)|
 |---|
 |Produktionsmenge zu hoch $(x^* > x^**)$ wenn externer Effekt nichtberücksichtigt|
 |Preis zu niedrig $(p^* < p^**)$ wenn externer Effekt nichtberücksichtigt|
 
 <ins>**Wohlfahrtsverlust**</ins>
 
-![wohlfahrtsverlust](wohlfahrtsverlust.png) </br>
+![wohlfahrtsverlust](assets/wohlfahrtsverlust.png) </br>
 Umweltkosten auf 0 zu reduzieren ist praktisch unmöglisch, darum nützt ein Verbot nur dann, wenn
 auch Nachfrage sehr tief ist.
 
 <ins>**Internalisierung eines negativen externen Effektes durch Ökosteuer** </ins>
 
-|![inernal_neg_extern_effekten](inernal_neg_extern_effekten.png)|
+|![inernal_neg_extern_effekten](assets/inernal_neg_extern_effekten.png)|
 |----|
 |Produzenten müssen pro produzierter Einheit Steuer in Höhe von $t$ zahlen|
 |Steuersatz optimal, der im Gleichgewicht sozial-optimale Preis-Mengen-Kombination generiert $\Longrightarrow$ optimaler Steuersatz = externe Grenzkosten|
 
 ### **Ökologische Treffsicherheit**
 
-|![optimale_umweltverschmutzung](optimale_umweltverschmutzung.png)|
+|![optimale_umweltverschmutzung](assets/optimale_umweltverschmutzung.png)|
 |---|
 |$V^*=$ Vermeidungsniveaus|
 |*Bemerkung: GU ist das, was wir wieder zurück erhalten.*|
@@ -416,10 +416,10 @@ auch Nachfrage sehr tief ist.
 <ins>Ziel:</ins> Erreichung des Vermeidungsziels zu geringstmöglichen Kosten, was 
 dann erreicht ist, wenn Grenzvermeidungskosten aller Firmen gleich sind.
 
-![kosteneffizienz](kosteneffizienz.png)
+![kosteneffizienz](assets/kosteneffizienz.png)
 
 ### **Gesamtkosten der Vermeidung**
-![gesamt_kosten](gesamt_kosten.png) </br>
+![gesamt_kosten](assets/gesamt_kosten.png) </br>
 $\Longrightarrow$ da schraffierte Fläche grösser als nicht schraffierte Fläche sparen wir Kosten (d.h. wir haben ein Ersparnis), was besser für die Wirschaft ist. Anpassung der Vermeidung der Unternehmen führt solange zu Verringerung der gesamtwirtschaftlichen Kosten, solange Grenzvermeidungskosten der Unternehmen unterschiedlich
 
 ## **Verlangsamung des Wachstums /Verminderung des gleichgewichtigen Kapitalstocks**
@@ -429,7 +429,7 @@ Umweltverschmutzung als Nebenprodukt des Kapitaleinsatzes: $P = aK$
 
 <ins>Konsequenzen</ins>
 
-![kon_umwelt](konsequenz_umweltverschmutzung.png)
+![kon_umwelt](assets/konsequenz_umweltverschmutzung.png)
 
 1. Geringerer gleichgewichtiger Kapitalstock und geringere Produktion $K_p^* < K^*, Y_p^* < Y^*$
 2. Langsameres Wachstum während
@@ -441,7 +441,7 @@ Anpassung zum Gleichgewicht $\dot{K}_p < \dot{K}$
 - Kapitalakkumulation: $\dot{K}=s Y-\left(v_{1}+\delta\right) K$
 - Produktion bei Vermeidung: $Y=K^{\alpha} L^{1-\alpha}\left[\left(a-v_{2}\right) K\right]^{-\beta}$
 
-|![berueck_vermeidung](berueck_vermeidung.png)|
+|![berueck_vermeidung](assets/berueck_vermeidung.png)|
 |---|
 |gleichgewichtiger Kapitalstock kann fallen oder sinken|
 |expansiver Effekt: höhere Produktivität|
@@ -449,14 +449,14 @@ Anpassung zum Gleichgewicht $\dot{K}_p < \dot{K}$
 
 ### **Rolle des technischen Fortschritts**
 
-![Verminderung_Verschmutzungsintensit](Verminderung_Verschmutzungsintensit%C3%A4t%20.png)
+![Verminderung_Verschmutzungsintensit](assets/Verminderung_Verschmutzungsintensit%C3%A4t%20.png)
 
-![Erhoehung_Effektivitaet](Erhoehung_Effektivitaet.png)
+![Erhoehung_Effektivitaet](assets/Erhoehung_Effektivitaet.png)
 
 ### **Klimawandel**
 Es gilt $d P / d t=\Theta R-\zeta P$ mit  P = Bestand an Treibhausgasen, R = Verbrauch nicht erneuerbarer Ressourcen, $\Theta$ = Verschmutzungsintensität, $\zeta$ = natürliche Zerfallsrate und S =  Bestand an nicht-erneuerbaren Ressourcen. Mit $\zeta = 0$ gilt $P_t = \Theta(S_0 - S_t)$.
 
-![Klimwandel_im_Modell](klimawandel_in_S_R.png)
+![Klimwandel_im_Modell](assets/klimawandel_in_S_R.png)
 
 Wir sehen dass $\delta = \delta(P)$ jetzt klimabedingt ist und wir Zusatzabschreibungen, wodurch der Wachstumsprozess früher aufhört.
 
@@ -468,15 +468,15 @@ $g_c =\frac{1}{\gamma}(A - \delta(P)-\rho)$
 - in entwickelten Länder: $A$ hoch und $\rho$ tief. In anderen meist ungekehrt $\Longrightarrow$ Prozess der Divergenz der weltweiten Entwicklung durch Klimawandel
 
 
-![Wachstumstheorie](20220510_162313020_iOS.png)
+![Wachstumstheorie](assets/20220510_162313020_iOS.png)
 
 ### **Environmental Kuznets Curve**
 
-![4_Phasen_EKC](4_phasen_EKC.png)
+![4_Phasen_EKC](assets/4_phasen_EKC.png)
 
 <ins>Schätzung der funktionalen Form des Einkommens-Verschmutzungs-Zusammenhangs</ins>
 
-|![schaetzungen_ekc](schaetzungen_ekc.png)|
+|![schaetzungen_ekc](assets/schaetzungen_ekc.png)|
 |--|
 |$\alpha=$ einkommensunabhängige Verschmutzung|
 |$\beta=$ relative Bedeutung der jeweiligen erklärenden Variablen|
@@ -485,4 +485,4 @@ $g_c =\frac{1}{\gamma}(A - \delta(P)-\rho)$
 
 **<ins>Schätzergebnisse</ins>**
 
-![schaetzergebnisse](schaetzergebnisse.png)
+![schaetzergebnisse](assets/schaetzergebnisse.png)
